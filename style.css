@@ -1,0 +1,68 @@
+html {
+    background-image: linear-gradient(to right, teal , rgb(212, 212, 212) , rgb(194, 82, 194));
+}
+
+#screen {
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-image: linear-gradient(to left, teal , rgb(212, 212, 212) , rgb(194, 82, 194));
+    color: black;
+    width: 400px;
+    margin-bottom: 15px;
+}
+
+#placeholder {
+    text-align: center;
+
+}
+
+button {
+    background-color: rgb(212, 166, 212);
+    height: 65px;
+    width: 65px;
+    margin: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: monospace;
+    border: 2px solid rgb(85, 85, 85);
+    border-radius: 33px;
+    outline: none;
+}
+
+button:hover {
+    background-color: rgb(83, 3, 79);
+    color: white;
+}
+
+#container {
+    width: 400px;
+    border: 1px solid black;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+#num-btn-container {
+    display: flex;
+    float: left;
+}
+
+#operator-btn-container {
+    display: flex;
+    float: center;
+    margin-top: 20px;
+}
+
+#operators {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+
+#num-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin: 20px;
+}
